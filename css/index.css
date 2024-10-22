@@ -1,0 +1,89 @@
+  body {
+    font-family: sans-serif;
+    background-color: #F8F8F8;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FF0000	;
+  }
+
+  h2 {
+    color: #FF0000	;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 8px;
+    align-items: center;
+  }
+  
+  #calcular {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+
+  #limpar {
+    background-color: white;
+    border: solid #FF0000;
+    color: #FF0000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #resultado {
+    font-size: 40px;
+    color: #FF0000;
+    font-weight: bold;
+  }
+  
+  #resultado.normal {
+    color: #FF0000;
+  }
+  
+  #resultado.underweight {
+    color: #2196F3;
+  }
+  
+  #resultado.overweight {
+    color: #FF9800;
+  }
+  
+  #resultado.obese {
+    color: #f44336;
+  }
